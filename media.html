@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>document</title>
+        <style>
+            .col-1 {
+                width: 8.33%;
+            }
+            .col-2 {
+                width: 16.66%;
+            }
+            .col-3 {
+                width: 25%;
+            }
+            .col-4 {
+                width: 33.33%;
+            }
+            .col-5 {
+                width: 41.66%;
+            }
+            .col-6 {
+                width: 50%;
+            }
+            .col-7 {
+                width: 58.33%;
+            }
+
+            @media only screen and (max-width: 768px) {
+            [class*="col-"] {
+                width: 100%;
+            }
+            }
+            div {
+                border: 1px black solid;
+                padding: 20px;
+                margin: 20px;
+                margin: 5px;
+                box-shadow: 1px 3px 3px 2px rgb(114, 61, 103);
+                border-radius: 15px;
+                background-color: rgb(255, 226, 245);
+                float: left;
+            }
+            *{
+                box-sizing: border-box.;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="col-1">satu</div>
+        <div class="col-2">satu</div>
+        <div class="col-3" id="satu">satu</div>
+        <div class="col-4" id="dua">dua</div>
+        <div class="col-5" id="tiga">tiga</div>
+        <div class="col-6" id="empat">empat</div>
+        <div class="col-7" id="lima">lima</div>
+        
+    </body>
+    </body>
+</html>
